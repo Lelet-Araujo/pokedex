@@ -1,0 +1,51 @@
+/* Contêiner que envolve todos os cards */
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+/* Estilo individual do card */
+.card-container {
+  width: 150px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  text-align: center;
+  background: linear-gradient(to bottom, #f2d4bb, #F2B29B);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.card-image {
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+.card-info {
+  margin-bottom:8px;
+}
+
+.card-number {
+  font-size: 1rem;
+  color: #363636;
+}
+
+.card-name {
+  margin-top: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+/* Paleta de c*/
+/* .Piante-controluce-al-mattino-in-inverno-1-hex { color: #024873; }
+.Piante-controluce-al-mattino-in-inverno-2-hex { color: #658DA6; }
+.Piante-controluce-al-mattino-in-inverno-3-hex { color: #025373; }
+.Piante-controluce-al-mattino-in-inverno-4-hex { color: #F2CEAE; }
+.Piante-controluce-al-mattino-in-inverno-5-hex { color: #F2B29B; } */
+
